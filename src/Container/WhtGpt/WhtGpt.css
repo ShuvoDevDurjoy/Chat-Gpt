@@ -1,0 +1,62 @@
+.WhtGpt-main-container{
+    margin : 2rem 2rem ; 
+}
+.WhtGpt-bottom-container{
+    display : flex ; 
+    flex-wrap : wrap ; 
+    margin-top : 4rem ;
+}
+
+.WhtGpt-bottom-container .features:nth-child(odd){
+    max-width : 48% ; 
+    margin-right : 1.5rem ; 
+    margin-bottom : 1.5rem  ; 
+}
+
+.WhtGpt-bottom-container .features:nth-child(even){
+    max-width : 45% ; 
+    margin-left : 1.5rem ; 
+    margin-bottom : 1.5rem ; 
+}
+
+.WhtGpt-bottom-container .features .Feature-container{
+    flex-direction: column ;
+}
+
+.WhtGpt-paragraph {
+    padding-top : 5rem ; 
+}
+
+
+@media screen and (max-width : 500px)
+{
+    /* .WhtGpt-container .Feature-container{
+        flex-direction : column ; 
+    } */
+
+    .WhtGpt-main-container .padding-box{
+        padding : 2rem 2rem ; 
+    }
+
+    .WhtGpt-container .Feature-container{
+        flex-direction: column ;
+    }
+
+    .WhtGpt-container .margin-box{
+        margin : 3rem 0 0 0 ;  
+    }
+
+    .WhtGpt-bottom-container .features{
+        min-width : 100% ; 
+        margin : 2rem 0rem ; 
+        margin-left : 0 ; 
+    }
+    .WhtGpt-bottom-container .features:nth-child(even)
+    {
+        min-width : 1005 ; 
+        margin-left : 0 ; 
+    }
+    .WhtGpt-container .Feature-container .icon-title-div h1{
+        font-size : 1.5rem ; 
+    }
+}

@@ -1,0 +1,35 @@
+.possibility-main-container{
+    width : 100% ; 
+}
+
+.possibility-container{
+    display : flex ; 
+    justify-content: space-between;
+    align-items: center;
+    gap : 1rem ; 
+    padding : 2rem 2rem ; 
+    border-radius: 2rem ;
+    background: linear-gradient( 120deg ,rgb(227, 35, 67) , rgb(174, 127, 135));
+}
+
+.possibility-text-container{
+    flex : 2 ; 
+}
+
+.possibility-container-text{
+    padding : 1rem 0rem ; 
+}
+
+@media screen and (max-width : 500px)
+{
+    .possibility-text-container h1{
+        font-size : 1.5rem ; 
+    }
+    .possibility-container{
+        flex-direction : column ; 
+    }
+
+    .possibility-main-container .margin-box{
+        margin : 2rem 1.5rem ; 
+    }
+}

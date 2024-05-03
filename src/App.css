@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+*{
+    padding : 0 ; 
+    margin : 0 ; 
+    box-sizing : border-box ; 
+}
+html{
+    scroll-behavior:smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: rgb(26, 29, 52);
+    color : white ; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    color : white ; 
+    text-decoration : none ; 
+    font-size : 18px ; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-type-1{
+    padding : 1.1rem 2.5rem ; 
+    font-size : 1.2rem ; 
+    background-color: tomato;
+    border : 0 ; 
+    outline : none ; 
+    border-top-right-radius: 1.1rem ;
+    border-bottom-left-radius: 1.1rem ;
+    cursor : pointer ; 
+    position : relative ; 
+    overflow : hidden ; 
+    z-index : 1 ; 
+    transition : .8s linear ; 
 }
 
-.App-link {
-  color: #61dafb;
+.button-type-2{
+    padding : 1rem 2.3rem ; 
+    font-size : 1.3rem ;
+    font-weight: 500 ;
+    color : white ;  
+    border-radius : .4rem ; 
+    background-color: tomato;
+    border : 0 ; 
+    outline : none ; 
+    cursor : pointer ; 
+    position : relative ; 
+    overflow : hidden ; 
+    z-index : 1 ; 
+    transition : .8s linear ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gradient-background{
+    background : linear-gradient(150deg,rgb(24, 64, 175), rgb(41, 32, 111)30% , rgb(6, 1, 43)) ; 
+}
+
+.gradient-background-2{
+    background:  linear-gradient(150deg,rgb(24, 64, 175), rgb(41, 32, 111)30% , rgb(6, 1, 43)) ; 
+}
+
+.text-gradient{
+    background : linear-gradient(90deg , rgb(204, 91, 208) , rgb(166, 1, 171)  );
+    background-clip: text ;
+    color : transparent ; 
+}
+
+.padding-box{
+    padding : 5rem 2rem 5rem 2rem;
+}
+
+.margin-box{
+    margin : 4rem 4rem ; 
+}
+
+.padding-top-box{
+    padding-top : 10rem ; 
+}
+
+.text-container{
+    padding : 2rem 1rem ; 
+}
+
+.gray-text-gradient{
+    margin : 1.2rem 0rem;
+    line-height : 1.3rem ;
+    word-spacing: 2px ;
+    font-weight: 500 ;  
+    font-size : 1.1rem ; 
+    background : linear-gradient(to right , rgb(186, 173, 173),rgb(140, 153, 140));
+    color : transparent ; 
+    background-clip: text;
+}
+
+@media screen and (max-width : 1000px)
+{
+    .padding-top-box{
+       padding-top : 10rem ;  
+    }
+    .padding-box{
+        padding : 2rem 2rem ; 
+    }
 }

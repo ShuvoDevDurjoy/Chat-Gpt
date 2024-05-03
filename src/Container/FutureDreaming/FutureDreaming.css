@@ -1,0 +1,49 @@
+.FutureDreaming-container{
+    width : 100% ; 
+    display : flex ; 
+    align-items: flex-start ;
+    justify-content: space-between;
+}
+
+.FutureDreaming-container-image{
+    width : 50% ; 
+    height: 100% ;
+}
+
+.FutureDreaming-container-text{
+    width: 40% ; 
+}
+
+.FutureDreaming-container-image img{
+    width : 100% ; 
+    height : 100% ; 
+}
+
+.paragraph-container h1{
+    font-size : 3rem ; 
+}
+
+.text-1{
+    color : cyan ; 
+}
+
+.text-2{
+    color : tomato ; 
+}
+
+@media screen and (max-width : 1000px)
+{
+    .FutureDreaming-container{
+        flex-direction : column-reverse ; 
+    }
+
+    .FutureDreaming-container-image{
+        width : 100% ; 
+        height: 100% ;
+    }
+    
+    .FutureDreaming-container-text{
+        width: 100% ; 
+    }
+    
+}

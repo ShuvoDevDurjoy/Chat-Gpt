@@ -1,0 +1,124 @@
+.navbar-container{
+    width : 100% ; 
+    display : flex ; 
+    align-items : center ; 
+    justify-content : center ;
+    padding : 2rem ;  
+    flex-wrap: wrap;
+    position : fixed ; 
+    z-index : 10  ;
+    transition : .3s ease-in ;
+}
+
+.scrolled{
+    background-color: rgba(255, 255, 255, 0.595);
+    transition : 1s linear ; 
+}
+
+.navbar-links{
+    display : flex ; 
+    flex : 2.5; 
+    align-items: center ;
+    justify-content: flex-start ;
+}
+
+.logo a{
+    font-size : 2rem; 
+    color : rgb(95, 126, 253) ; 
+    margin-right : 2rem; 
+    font-weight: 700 ;
+    line-height: 20px ;
+    text-shadow: -.05rem .1rem .2rem rgb(131, 121, 64);
+}
+
+
+.signin-signup{
+    display : flex ;    
+    align-items: center ;
+    background-color: yellow ;
+    color : black ; 
+    border-top-right-radius: 1.1rem ;
+    border-bottom-left-radius: 1.1rem ;
+}
+
+
+
+.navbar-links .links{
+    display : flex ; 
+    align-items : center ; 
+}
+
+.navbar-links .links a{
+    margin-right : 1.2rem; 
+    transition: .2s ease;
+}
+
+.navbar-links .links a:is(:hover){
+    color: rgb(111, 111, 217) ;
+    transform : translateY(-.15rem) ; 
+    transition : .2s ease ; 
+}
+
+.navbar-signIn-signUp{
+    flex : 1 ; 
+    display : flex ; 
+    align-items: center ;
+    justify-content: flex-end;
+}
+
+.navbar-signIn-signUp .signin-signup p{
+    padding : 1.1rem 2.5rem ; 
+    font-size : 1.2rem ; 
+    cursor : pointer ; 
+}
+
+.button-type-1::before{
+    width : 200% ; 
+    height : 200% ;
+    background-color: rgb(23, 23, 67) ;
+    content : " " ; 
+    display : block ; 
+    position : absolute ; 
+    left : -50% ; 
+    top : 100% ; 
+    border-radius: 50% ;
+    transition : .8s linear ; 
+    z-index : -1 ; 
+}
+
+.button-type-1:hover::before{
+    top : -60% ; 
+    transition : .8s linear ; 
+}
+.button-type-1:hover.button-type-1{
+    color : white ; 
+    transition : color .8s linear ; 
+}
+
+
+@media screen and (max-width : 1020px)
+{
+    .navbar-container{
+        width : 100% ; 
+    }
+    .navbar-links{
+        padding : 1rem 1rem; 
+        flex : 1 ; 
+    }
+
+    .navbar-links .logo a{
+        font-size : 2rem; 
+        margin-right : 0px ; 
+    }
+
+    .navbar-links .links{
+        display : none ; 
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .navbar-signIn-signUp{
+        display : none ; 
+    }
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Components/Navbar/Navbar" ; 
+import Header from "./Container/Header/Header" ; 
+import Partner from "./Components/Partner/Partner" ; 
+import WhtGpt from "./Container/WhtGpt/WhtGpt" ;
+import OpenAI from "./Container/OpenAI/OpenAI" ; 
+import FutureDreaming  from "./Container/FutureDreaming/FutureDreaming"; 
+import Possibility from "./Components/Possibility/Possibility";
+import Blogs from "./Container/Blogs/Blogs"
+import Footer from "./Container/Footer/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App()
+{
+    return <div>
+        <div className="gradient-background">
+        <Navbar />
+        <Header />
+        </div>
+        <Partner />
+        <WhtGpt />
+        <OpenAI />
+        <FutureDreaming />
+        <Possibility />
+        <Blogs />
+        <Footer />
     </div>
-  );
 }
 
-export default App;
+export default App ; 

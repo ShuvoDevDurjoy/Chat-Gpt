@@ -1,0 +1,46 @@
+.OpenAI-section-container{
+    display : flex ; 
+    justify-content: flex-end;
+}
+
+.OpenAI-section-heading{
+    margin-right : 4rem ; 
+}
+
+.OpenAI-section-heading h1{
+    font-size : 2.1rem ; 
+    text-transform : capitalize ; 
+}
+.OpenAI-section-heading p{
+    margin : 2rem 0rem ;  
+    cursor : pointer ; 
+}
+.feature-lists{
+    margin-bottom : 2rem ; 
+}
+
+.feature-lists:focus{
+    transform: translateY(-100px);
+}
+
+@media screen and (max-width : 1000px)
+{
+    .OpenAI-section-container{
+        flex-direction : column ; 
+    }
+
+    .OpenAI-section-heading{
+        margin-right : 0 ; 
+    }
+
+    .OpenAI-section-heading h1{
+        font-size : 1.5rem; 
+    }
+}
+
+@media screen and (max-width : 500px)
+{
+    .OpenAI-features .feature-lists .Feature-container{
+        flex-direction : column ; 
+    }
+}
