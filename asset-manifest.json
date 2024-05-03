@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Chat-Gpt/static/css/main.3693ca2e.css",
+    "main.js": "/Chat-Gpt/static/js/main.2d5c38eb.js",
+    "static/media/future dreaming ai.png": "/Chat-Gpt/static/media/future dreaming ai.3c5f22657d655420de82.png",
+    "static/media/blog image 5.jpeg": "/Chat-Gpt/static/media/blog image 5.75ece52f45f62ff190fa.jpeg",
+    "static/media/ai_image.png": "/Chat-Gpt/static/media/ai_image.e8e08a4d7d491765b416.png",
+    "static/media/google.png": "/Chat-Gpt/static/media/google.9b9bbd3a2de7847d8bcd.png",
+    "static/media/blog image 4.jpeg": "/Chat-Gpt/static/media/blog image 4.5ffde27f07d48049984b.jpeg",
+    "static/media/blog image 3.jpeg": "/Chat-Gpt/static/media/blog image 3.ddf6e746417edc7dbcb7.jpeg",
+    "static/media/dropbox.png": "/Chat-Gpt/static/media/dropbox.308f7c8b793db72d0d13.png",
+    "static/media/shopify.png": "/Chat-Gpt/static/media/shopify.806bafb352e7b31cea0d.png",
+    "static/media/blog image 1.jpeg": "/Chat-Gpt/static/media/blog image 1.c3c99059058866783847.jpeg",
+    "index.html": "/Chat-Gpt/index.html",
+    "main.3693ca2e.css.map": "/Chat-Gpt/static/css/main.3693ca2e.css.map",
+    "main.2d5c38eb.js.map": "/Chat-Gpt/static/js/main.2d5c38eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3693ca2e.css",
+    "static/js/main.2d5c38eb.js"
+  ]
+}
